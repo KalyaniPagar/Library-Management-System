@@ -48,8 +48,8 @@ These accounts come from `seed.sql` and are for demo use only. Change the passwo
 | Role   | Email           | Password |
 |--------|-----------------|----------|
 | Admin  | admin@lms.test  | admin123 |
-| Member | alice@lms.test  | admin123 |
-| Member | bob@lms.test    | admin123 |
+| Member |priya@lms.test  | admin123 |
+| Member | rahul@lms.test   | admin123 |
 
 ## Copies
 
