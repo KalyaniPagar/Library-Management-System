@@ -27,10 +27,11 @@ VALUES (1, 14, 1.00, 3, 'INR');
 -- ---------------------------------------------------------------------------
 -- users — bcrypt hash below is for the password "admin123"
 -- ---------------------------------------------------------------------------
+
 INSERT INTO users (name, email, password_hash, role, member_code, status) VALUES
 ('Library Admin', 'admin@lms.test', '$2y$10$hxyfvo3OgQvC2eENMdMyze9.o4xJZo5eGjqOpM/RtxiaGdcgT8glm', 'admin',  NULL,      'active'),
-('Alice Member',  'alice@lms.test', '$2y$10$hxyfvo3OgQvC2eENMdMyze9.o4xJZo5eGjqOpM/RtxiaGdcgT8glm', 'member', 'STU-001', 'active'),
-('Bob Member',    'bob@lms.test',   '$2y$10$hxyfvo3OgQvC2eENMdMyze9.o4xJZo5eGjqOpM/RtxiaGdcgT8glm', 'member', 'STU-002', 'active');
+('Priya Sharma',  'priya@lms.test',  '$2y$10$hxyfvo3OgQvC2eENMdMyze9.o4xJZo5eGjqOpM/RtxiaGdcgT8glm', 'member', 'STU-001', 'active'),
+('Rahul Patil',   'rahul@lms.test',  '$2y$10$hxyfvo3OgQvC2eENMdMyze9.o4xJZo5eGjqOpM/RtxiaGdcgT8glm', 'member', 'STU-002', 'active');
 
 -- ---------------------------------------------------------------------------
 -- categories
