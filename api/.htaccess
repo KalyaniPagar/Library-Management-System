@@ -1,0 +1,6 @@
+# Route every request under /LMS/api/* to the front controller (index.php).
+# Real files (if any) are served directly.
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
