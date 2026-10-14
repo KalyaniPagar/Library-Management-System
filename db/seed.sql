@@ -1,9 +1,11 @@
 -- Library Management System — seed data
 -- Run AFTER schema.sql. Safe to re-run (clears tables first).
 --
+
 -- Default login:
 --   admin@lms.test / admin123   (role: admin)
---   alice@lms.test / admin123   (role: member, same hash for convenience)
+--   priya@lms.test / admin123   (role: member, same hash for convenience)
+--   rahul@lms.test / admin123   (role: member, same hash for convenience)
 
 USE lms_db;
 
